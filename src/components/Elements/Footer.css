@@ -1,0 +1,97 @@
+footer {
+    background-color: rgb(31,31,31);
+    color: aliceblue;
+    padding: 1rem 3rem;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+    font-size: 18px;
+}
+
+h3 {
+    /* font-size: 20px; */
+    margin-bottom: 0;
+}
+
+.main-footer {
+    position: relative;
+    bottom: 0;
+}
+
+.footer-info {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 55%;
+}
+
+.contact-label {
+    margin-right: 3rem;
+}
+
+.contact {
+    margin: auto;
+    display: inline-flex;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    width: 30%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.fab {
+    margin: 5px;
+}
+
+.contact-icon {
+    /* user-select: none; */
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    height: 3rem;
+    width: 3rem;
+    margin: 0.6rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.contact-icon:hover {
+    background-color: #808080;
+    color: rgb(31,31,31);
+}
+
+
+.contact-icon,
+.contact-icon:link,
+.contact-icon:visited,
+.contact-icon:hover,
+.contact-icon:active {
+    text-decoration: none;
+}
+
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-js {
+    color: yellow;
+}
+
+.fa-css3 {
+    color: #146eb0;
+}
+
+.fa-react {
+    color: #00d8ff;
+}

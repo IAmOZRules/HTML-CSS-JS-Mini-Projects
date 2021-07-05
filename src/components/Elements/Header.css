@@ -1,0 +1,14 @@
+header {
+    background-color: rgb(31,31,31);
+    color: aliceblue;
+    padding: 2rem 3rem;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-content: center;
+}
+
+h3 {
+    font-size: 40px;
+    margin: auto;
+}

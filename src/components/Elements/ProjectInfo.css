@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+.project-info {
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    position: relative;
+    /* margin: 10px 20px */
+}
+
+.title {
+    font-weight: 700;
+    margin: auto auto auto 2rem;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
