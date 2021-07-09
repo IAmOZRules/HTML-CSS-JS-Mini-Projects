@@ -16,7 +16,6 @@ const ProjectInfo = props => {
                     <Link to={dir} target="_blank" rel="noopener noreferrer">
                         <LinkButton />
                     </Link>
-                    {window.reload}
                 </BrowserRouter>
             </div>
         </div>

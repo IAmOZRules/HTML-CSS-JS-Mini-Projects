@@ -106,6 +106,16 @@ const App = () => {
             title: "Button Ripple Effect",
             dir: "button-ripple-effect"
         },
+        {
+            no: "21",
+            title: "Drag and Drop",
+            dir: "drag-n-drop"
+        },
+        {
+            no: "22",
+            title: "Drawing App",
+            dir: "drawing-app"
+        },
 
     ]
     return (

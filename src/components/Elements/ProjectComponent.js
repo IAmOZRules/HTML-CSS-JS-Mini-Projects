@@ -9,7 +9,6 @@ import "./ProjectComponent.css"
 const ProjectComponent = props => {
     const number = props.no;
     const title = props.title;
-    // const desc = props.desc;
     const dir = props.dir;
     
     return (
