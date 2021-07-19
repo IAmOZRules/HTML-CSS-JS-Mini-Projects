@@ -4,6 +4,8 @@ const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
 
+createMsgCard('Details will be displayed here.')
+
 async function getUser(username) {
     try {
         // eslint-disable-next-line no-undef
@@ -13,7 +15,7 @@ async function getUser(username) {
         getRepos(username)
     } catch (err) {
         if (err.response.status === 404) {
-            createErrorCard('No profile found... 😥')
+            createMsgCard('No profile found... 😥')
         }
     }
 }
@@ -25,7 +27,7 @@ async function getRepos(username) {
 
         addReposToCard(data)
     } catch (err) {
-        createErrorCard('Problem fetching repos')
+        createMsgCard('Problem fetching repos')
     }
 }
 
@@ -51,13 +53,12 @@ function createUserCard(user) {
 
 }
 
-function createErrorCard(msg) {
+function createMsgCard(msg) {
     const cardHTML = `
         <div class="card">
             <h1>${msg}</h1>
         </div>
     `
-
     main.innerHTML = cardHTML
 }
 
